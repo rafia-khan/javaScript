@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- javaScript program to find smallest number,larger number & sum up array of numbers.[4,5,8,68,79,1] -->
+    <script>
+        var n = [4,5,8,68,79,1];
+
+        var large = n[0];
+        var small = n[0];
+        var sum = 0;
+
+        for ( i = 0; i<n.length; i++) {
+            if (small > n[i]) {
+                small = n[i];
+            }
+
+            if (large < n[i]) {
+                large = n[i];
+            }
+
+            sum+= n[i];
+        }
+
+        document.write("small number : "+small+"<br>");
+        document.write(large+"<br>");
+        document.write(sum);
+    </script>
+</body>
+</html>

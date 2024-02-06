@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingding</title>
+</head>
+<body>
+    <script>
+          let num1 = parseInt(prompt("Enter number"));
+        let num2 = parseInt(prompt("Enter number"));
+        let num3 = parseInt(prompt("Enter number"));
+
+        if (num1>num2) {
+            tem = num1;
+            num1 = num2;
+            num2 = tem;
+        }
+
+        if (num1>num3) {
+            tem = num1;
+            num1 = num3;
+            num3 = tem;
+        }
+
+        if (num2>num3) {
+            tem = num2;
+            num2 = num3;
+            num3 = tem;
+        }
+
+            document.write (num1+ "," + num2+ "," + num3+ ",");
+            
+
+
+
+        
+    </script>
+</body>
+</html>
