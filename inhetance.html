@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inhetance</title>
+</head>
+<body>
+    <script>class bike{
+        constructor ()
+        {
+            this.company="Hunda",
+            this.year="1948";
+        }
+    }
+
+    class rafia extends bike{
+        constructor () { 
+            super();
+            
+            this.name="name";
+            this.name="price";
+            
+        }
+    }
+
+    var r = new rafia("shine","7000");
+    document.write(r.company+ "," + r.year+ "," +r.name+ "," +r.price);
+    </script>
+    
+</body>
+</html>
